@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+const TIBCO_SERVER_EMS_LIST = [
+  { title: "EMS 서버 관리" },
+  { title: "EMS 서버 이력 조회" },
+  { title: "EMS 속성 조회" },
+  { title: "EMS Queue/Topic 추가" },
+  { title: "EMS 서비스 조회" },
+  { title: "EMS 서비스 이력 조회" },
+];
+
 const Sidebar = () => {
   return (
     <>
@@ -13,32 +22,40 @@ const Sidebar = () => {
             {/* <!-- End - Profile widget --> */}
 
             <div class="mainnav__categoriy py-3">
-              <h6 class="mainnav__caption mt-0 px-3 fw-bold">Link Items</h6>
+              <h4 class="mainnav__caption mt-0 px-3 fw-bold">TIBCO</h4>
+
+              <h5 class="mainnav__caption mt-0 px-3 fw-bold">
+                <img
+                  src="/img/icon/tibcoServer.png"
+                  style={{ width: 16, height: 16 }}
+                />
+                TIBCO 서버
+              </h5>
+
+              <h5 class="mainnav__caption mt-0 px-3 fw-bold">
+                <img
+                  src="/img/icon/ems.png"
+                  style={{ width: 16, height: 16 }}
+                />
+                EMS
+              </h5>
               <ul class="mainnav__menu nav flex-column">
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a href="#" class="nav-link mininav-toggle collapsed">
                     <i class="pli-bar-chart fs-5 me-2"></i>
                     <span class="nav-label mininav-content ms-1">Regular</span>
                   </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="#" class="nav-link mininav-toggle collapsed active">
-                    <i class="pli-home fs-5 me-2"></i>
-                    <span class="nav-label mininav-content ms-1">
-                      Active state
-                    </span>
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="#" class="nav-link mininav-toggle collapsed">
-                    <i class="pli-brush fs-5 me-2"></i>
-                    <span class="nav-label mininav-content ms-1 fw-bold">
-                      Bolder link
-                    </span>
-                  </a>
-                </li>
+                </li> */}
+                {TIBCO_SERVER_EMS_LIST.map((data) => (
+                  <li class="nav-item" key={data.title}>
+                    <a href="#" class="nav-link mininav-toggle collapsed">
+                      <i class="pli-home fs-5 me-2"></i>
+                      <span class="nav-label mininav-content ms-1">
+                        {data.title}
+                      </span>
+                    </a>
+                  </li>
+                ))}
 
                 <li class="nav-item">
                   <a href="#" class="nav-link mininav-toggle collapsed">
