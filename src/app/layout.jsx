@@ -1,14 +1,14 @@
-import Header from "../../public/layout/header";
-import Sidebar from "../../public/layout/sidebar";
+import Header from "@/components/layout/header";
+import Sidebar from "@/components/layout/sidebar";
 
 /*---Nifty Css---*/
-import "../../public/assets/css/bootstrap.css";
+// import "../../public/assets/css/bootstrap.css";
 import "../../public/assets/css/nifty.css";
-// import "../../public/assets/css/bootstrap.min.css";
+import "../../public/assets/css/bootstrap.css";
 
 /*---Bootstrap Css---*/
 // import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 
 export const metadata = {
   title: "Next.js",
@@ -18,13 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <main>
-      <script src="/assets/vendors/popper.min.js" defer></script>
-      <script src="/assets/vendors/bootstrap.min.js" defer></script>
-      <script src="/assets/js/nifty.js" defer></script>
-      <script src="/assets/vendors/mdDateTimePicker.min.js" defer></script>
       <Header />
       <Sidebar />
       <body>{children}</body>
+      <script src="/resource/js/bootstrap.js"></script>
+      <script src="/public/assets/js/nifty.js"></script>
     </main>
   );
 }
