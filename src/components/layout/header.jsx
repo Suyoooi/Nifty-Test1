@@ -7,18 +7,18 @@ const Header = () => {
           <div class="header__brand">
             <div class="brand-wrap">
               {/* <!-- Brand logo --> */}
-              <a href="./index.html" class="brand-img stretched-link">
+              <a href="/" class="brand-img stretched-link">
                 <img
-                  src="./assets/img/logo.svg"
-                  alt="Nifty Logo"
-                  class="Nifty logo"
-                  width="40"
-                  height="40"
+                  src="/img/icon/portalLogo.png"
+                  alt="Portal"
+                  class="Portal"
+                  // width="121"
+                  // height="24"
                 />
               </a>
 
               {/* <!-- Brand title --> */}
-              <div class="brand-title">Nifty</div>
+              {/* <div class="brand-title">Nifty</div> */}
 
               {/* <!-- You can also use IMG or SVG instead of a text element. --> */}
             </div>
@@ -50,13 +50,6 @@ const Header = () => {
 
                 {/* <!-- Searchbox input --> */}
                 <form class="searchbox searchbox--auto-expand searchbox--hide-btn input-group">
-                  <input
-                    id="header-search-input"
-                    class="searchbox__input form-control bg-transparent"
-                    type="search"
-                    placeholder="Type for search . . ."
-                    aria-label="Search"
-                  />
                   <div class="searchbox__backdrop">
                     <button
                       class="searchbox__btn header__btn btn btn-icon rounded shadow-none border-0 btn-sm"
