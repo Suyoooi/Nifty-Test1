@@ -18,10 +18,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <main>
-      <Header />
-      <Sidebar />
-      <body>{children}</body>
-      <script src="/resource/js/bootstrap.js"></script>
+      <body>
+        <Header />
+        <Sidebar />
+        {children}
+      </body>
+      <script src="/dist/js/bootstrap.js"></script>
       <script src="/public/assets/js/nifty.js"></script>
     </main>
   );
