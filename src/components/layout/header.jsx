@@ -15,9 +15,6 @@ const Header = () => {
                 />
               </a>
               {/* <!-- Brand title --> */}
-              {/* <div class="brand-title">Nifty</div> */}
-
-              {/* <!-- You can also use IMG or SVG instead of a text element. --> */}
             </div>
           </div>
           {/* <!-- End - Brand --> */}
@@ -31,35 +28,10 @@ const Header = () => {
                 aria-label="Nav Toggler"
               >
                 <i class="psi-list-view"></i>
-                djdj
+                버튼
               </button>
-
               {/* <!-- Searchbox --> */}
-              <div class="header-searchbox">
-                {/* <!-- Searchbox toggler for small devices --> */}
-                <label
-                  for="header-search-input"
-                  class="header__btn d-md-none btn btn-icon rounded-pill shadow-none border-0 btn-sm"
-                  type="button"
-                >
-                  <i class="psi-magnifi-glass"></i>
-                </label>
-
-                {/* <!-- Searchbox input --> */}
-                <form class="searchbox searchbox--auto-expand searchbox--hide-btn input-group">
-                  <div class="searchbox__backdrop">
-                    <button
-                      class="searchbox__btn header__btn btn btn-icon rounded shadow-none border-0 btn-sm"
-                      type="button"
-                      id="button-addon2"
-                    >
-                      <i class="pli-magnifi-glass"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
             </div>
-            {/* <!-- End - Content Header - Left Side --> */}
 
             {/* <!-- Content Header - Right Side: --> */}
             <div class="header__content-end">
@@ -93,18 +65,6 @@ const Header = () => {
                           href="#"
                           class="list-group-item list-group-item-action"
                         >
-                          Profile
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Search Result
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
                           FAQ
                         </a>
                         <a
@@ -112,26 +72,6 @@ const Header = () => {
                           class="list-group-item list-group-item-action"
                         >
                           Screen Lock
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Maintenance
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Invoices
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action disabled"
-                          tabindex="-1"
-                          aria-disabled="true"
-                        >
-                          Disabled Item
                         </a>
                       </div>
                     </div>
@@ -150,24 +90,6 @@ const Header = () => {
                         >
                           Inbox{" "}
                           <span class="badge bg-danger rounded-pill">14</span>
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Read Messages
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Compose
-                        </a>
-                        <a
-                          href="#"
-                          class="list-group-item list-group-item-action"
-                        >
-                          Template
                         </a>
                       </div>
 
@@ -428,7 +350,6 @@ const Header = () => {
                         <small class="text-muted">30 minutes ago</small>
                       </div>
                     </div>
-
                     {/* <!-- List item --> */}
                     <div class="list-group-item list-group-item-action d-flex align-items-start mb-3">
                       <div class="flex-shrink-0 me-3">
@@ -492,7 +413,6 @@ const Header = () => {
                       </span>
                     </div>
                   </div>
-
                   <div class="row">
                     <div class="col-md-7">
                       {/* <!-- Simple widget and reports --> */}
@@ -563,7 +483,6 @@ const Header = () => {
                 </div>
               </div>
               {/* <!-- End - User dropdown --> */}
-
               {/* <!-- Sidebar Toggler --> */}
               <button
                 class="sidebar-toggler header__btn btn btn-icon btn-sm"
