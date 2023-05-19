@@ -25,6 +25,8 @@ export default function RootLayout({ children }) {
       </body>
       <script src="/dist/js/bootstrap.js"></script>
       <script src="/public/assets/js/nifty.js"></script>
+      <script src="/public/assets/vendors/bootstrap/bootstrap.min.js"></script>
+      <script src="/public/assets/vendors/popperjs/popper.min.js"></script>
     </main>
   );
 }
