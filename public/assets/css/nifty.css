@@ -1972,7 +1972,7 @@ body,
 html::-webkit-scrollbar,
 body::-webkit-scrollbar,
 .scrollable-content::-webkit-scrollbar {
-  width: 0.1875rem;
+  width: 0rem;
 }
 
 html::-webkit-scrollbar-track,
