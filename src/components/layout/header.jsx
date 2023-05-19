@@ -12,11 +12,8 @@ const Header = () => {
                   src="/img/icon/portalLogo.png"
                   alt="Portal"
                   class="Portal"
-                  // width="121"
-                  // height="24"
                 />
               </a>
-
               {/* <!-- Brand title --> */}
               {/* <div class="brand-title">Nifty</div> */}
 
@@ -24,7 +21,6 @@ const Header = () => {
             </div>
           </div>
           {/* <!-- End - Brand --> */}
-
           <div class="header__content">
             {/* <!-- Content Header - Left Side: --> */}
             <div class="header__content-start">
@@ -35,6 +31,7 @@ const Header = () => {
                 aria-label="Nav Toggler"
               >
                 <i class="psi-list-view"></i>
+                djdj
               </button>
 
               {/* <!-- Searchbox --> */}

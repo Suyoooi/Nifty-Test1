@@ -921,6 +921,11 @@ body[style*="background"]:not(.boxed-layout) > .front-container,
 
 /* -- MAINNAV MENU LINK -- */
 /* ---------------------------------------------- */
+
+.mainnav {
+  display: none;
+}
+
 .mainnav__caption {
   color: #373c43;
 }
