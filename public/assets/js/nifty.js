@@ -129,7 +129,7 @@ let miniNavContentsCollapse = null;
     }
     return new bootstrap.Collapse(collapseEl, { toggle: false });
   });
-})();
+});
 
 // Default PopperJS options for the mini-navigation.
 const popperOptions = {
